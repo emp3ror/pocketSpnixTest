@@ -1,0 +1,16 @@
+#JSGF V1.0;
+
+grammar digits;
+
+<digit> = sunnaa    |
+          ek   |
+          dui   |
+          tin |
+          caar  |
+          paa_nc  |
+          cha   |
+          saat |
+          aaTh |
+          nau  ;
+
+public <digits> = <digit>+;
